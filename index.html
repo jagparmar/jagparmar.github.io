@@ -1,494 +1,336 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jag Parmar — Portfolio</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  
-
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap"
-
-      rel="stylesheet"
-
-    />    
-
-  
-
-  <meta charset="UTF-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Personal Website</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
 
   <link rel="stylesheet" href="styles.css">
-
 </head>
-
 <body>
 
   <!-- Sidebar -->
-
   <aside class="sidebar">
-
     <div class="profile">
-
-      <img src="images/image2.jpeg" alt="Your Photo" class="profile-pic">
-
+      <div class="profile-frame">
+        <img src="images/image2.jpeg" alt="Photo of Jag Parmar" class="profile-pic">
+      </div>
       <h2>Jag Parmar</h2>
-
-      <p>Engineering Student at Simon Fraser University</p>
-
+      <p>Engineering Student, Simon Fraser University</p>
     </div>
 
-    <nav class="nav">
-
-      <a href="#about" class="nav-link">About Me</a>
-
+    <nav class="nav" aria-label="Primary">
+      <a href="#about" class="nav-link">About</a>
       <a href="#skills" class="nav-link">Skills</a>
-
       <a href="#projects" class="nav-link">Projects</a>
-
     </nav>
 
-
-
     <div class="contact-icons">
-
-    <a href="https://www.linkedin.com/in/jagparmar/" target="_blank">
-
-      <i class="fab fa-linkedin"></i>
-
-    </a>
-
-    <a href="mailto:jsp29@sfu.ca">
-
-      <i class="fas fa-envelope"></i>
-
-    </a>
-
+      <a href="https://www.linkedin.com/in/jagparmar/" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:jsp29@sfu.ca" aria-label="Send email">
+        <i class="fas fa-envelope"></i>
+      </a>
     </div>
-
   </aside>
 
-
-
   <!-- Main Content -->
-
   <main class="content">
 
     <!-- About Me -->
-
-    <section id="about">
-
-  <h1>Nice to meet you! I'm Jag Parmar.</h1>
-
-  <p>
-
-    As a computer engineering student, I am passionate about learning. I've always been curious about machines, 
-
-    systems, and how they work. This curiosity shaped my decision to pursue a degree in engineering.      
-
-    I am interested in being able to apply my education and solve complex problems in the real world.
-
-  
-
-    <br><br>
-
-    I have work experience in finance, where I worked as a teller, and later as an advisor, at TD Canada Trust. 
-
-    I worked at TD while pursuing my education, which required me to develop strong time management skills.
-
-    My work experience allowed me to develop professionalism in client relations, sales and gain 
-
-    knowledge about the financial industry.  
-
-    <br><br>
-
-    I am seeking internship opportunities in finance or engineering where I can apply my technical abilities and 
-
-    engineering mindset to solve complex problems from a first-principles approach. I am eager to learn and add value to the organization.
-
-    
-
-    <br><br>
-
-    Outside of school, I enjoy time with friends and family, reading and I love pushing myself 
-
-    at the gym and on the basketball court. A goal I have for myself is learning to play a musical instrument. 
-
-    Don't hesitate to reach out, you can find me on 
-
-    <a href="https://www.linkedin.com/in/jagparmar/" target="_blank" class="btn-link">LinkedIn</a> 
-
-    or <a href="mailto:jsp29@sfu.ca" class="btn-link">email</a>!
-
-  </p>
-
-</section>
-
-
-
-    <!-- Skills -->
-
-    <section id="skills">
-
-      <h1>Skills</h1>
-
-  
-
-      <h2>Programming Languages</h2>
-
-      <p>C/C++, VHDL, Python, Java, MATLAB, SQL/SQLite</p>
-
-
-
-      <h2>Technical Skills</h2>
-
-      <p>Linux, Git, PyCharm, VS Code, Windows, Android, SSH, Synthetic Aperture Radar(SAR)</p>
-
-
-
-      <h2>Relevant Applications</h2>
-
-      <p>Microsoft Excel, PowerPoint, Word. Internal banking applications</p>
-
-
-
-      <h2>Soft Skills</h2>
-
-      <p>Sales, Client Relationship Management, Public Speaking</p>
-
-
-
+    <section id="about" class="hero">
+      <p class="hero-kicker">Finance × Engineering</p>
+      <h1 class="hero-title">Nice to meet you — I'm Jag Parmar.</h1>
+      <div class="hero-body">
+        <p>
+          As a computer engineering student, I'm passionate about learning. I've always been curious about
+          machines, systems, and how they work, and that curiosity shaped my decision to pursue engineering.
+          I want to apply that education to solve complex, real-world problems.
+        </p>
+        <p>
+          I have work experience in finance, first as a teller and later as an advisor at TD Canada Trust.
+          I worked there while studying full-time, which pushed me to build strong time-management habits.
+          The role also gave me professionalism in client relations and sales, along with a working
+          knowledge of the financial industry.
+        </p>
+        <p>
+          I'm seeking internship opportunities in finance or engineering, where I can bring a first-principles
+          mindset to solving complex problems and add real value to a team.
+        </p>
+        <p>
+          Outside of school, I spend time with friends and family, read, and push myself at the gym and on the
+          basketball court — and I'm working on learning a musical instrument. Don't hesitate to reach out on
+          <a href="https://www.linkedin.com/in/jagparmar/" target="_blank" rel="noopener" class="btn-link">LinkedIn</a>
+          or by <a href="mailto:jsp29@sfu.ca" class="btn-link">email</a>.
+        </p>
+      </div>
     </section>
 
+    <!-- Skills -->
+    <section id="skills">
+      <h1>Skills</h1>
 
+      <dl class="spec-sheet">
+        <div class="spec-row">
+          <dt>Programming Languages</dt>
+          <dd>C/C++, VHDL, Python, Java, MATLAB, SQL/SQLite</dd>
+        </div>
+        <div class="spec-row">
+          <dt>Technical Skills</dt>
+          <dd>Linux, Git, PyCharm, VS Code, Windows, Android, SSH, Synthetic Aperture Radar (SAR)</dd>
+        </div>
+        <div class="spec-row">
+          <dt>Relevant Applications</dt>
+          <dd>Microsoft Excel, PowerPoint, Word, internal banking applications</dd>
+        </div>
+        <div class="spec-row">
+          <dt>Soft Skills</dt>
+          <dd>Sales, client relationship management, public speaking</dd>
+        </div>
+      </dl>
+    </section>
 
     <!-- Projects -->
-
     <section id="projects">
-
       <h1>Projects</h1>
 
-      
+      <div class="timeline">
 
+        <article class="timeline-item">
+          <div class="timeline-rail">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="project-card">
+            <img src="images/filter.jpg" alt="Oscilloscope trace from the filter design lab" loading="lazy">
+            <div class="project-info">
+              <span class="project-date">August 2025</span>
+              <h2>Filter Design Lab</h2>
+              <p>Designed and implemented a low-pass audio filter to meet strict frequency response
+                requirements — passing signals from 300 Hz to 5 kHz while attenuating high-frequency noise
+                by at least 40 dB at 22 kHz. Selected and calculated component values using Butterworth
+                filter design equations, then simulated the transfer function in MATLAB to verify performance
+                and account for component tolerances. Built and tested the circuit on a breadboard, validating
+                passband flatness and stopband suppression against the design specifications.</p>
+              <ul class="tag-list">
+                <li>MATLAB</li>
+                <li>Microsoft Excel</li>
+                <li>LTSpice</li>
+              </ul>
+            </div>
+          </div>
+        </article>
 
-      <div class="project-card">
+        <article class="timeline-item">
+          <div class="timeline-rail">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="project-card">
+            <img src="images/cpu.jpg" alt="Diagram of a RISC-V CPU pipeline" loading="lazy">
+            <div class="project-info">
+              <span class="project-date">June 2025 – August 2025</span>
+              <h2>RISC-V CPU Architecture Implementation</h2>
+              <p>Developed a cycle-accurate CPU simulator in C, implementing instruction pipelining and
+                modeling all major CPU stages — fetch, decode, execute, memory, write-back. Designed and
+                integrated a cache subsystem with configurable parameters, replacement policies (LRU, LFU),
+                and performance tracking. The final build combined pipeline hazard detection, forwarding
+                logic, and cache memory to simulate realistic processor performance and analyze execution
+                efficiency.</p>
+              <ul class="tag-list">
+                <li>C Programming</li>
+                <li>RISC-V Architecture</li>
+                <li>Assembly</li>
+              </ul>
+            </div>
+          </div>
+        </article>
 
-        <img src="images/filter.jpg" alt="Project 3">
+        <article class="timeline-item">
+          <div class="timeline-rail">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="project-card">
+            <img src="images/sql.jpg" alt="Entity-relationship diagram for the library database" loading="lazy">
+            <div class="project-info">
+              <span class="project-date">March 2025 – April 2025</span>
+              <h2>Database Library Application</h2>
+              <p>Developed a library database system using SQLite and Python, incorporating entities such as
+                books, media, events, and personnel. Designed E/R diagrams, normalized schemas to BCNF to
+                eliminate anomalies, and implemented SQL queries with constraints and triggers to ensure data
+                integrity. Built a functional application that lets users borrow, return, and donate items,
+                register for events, and interact with library services in a realistic setting.</p>
+              <ul class="tag-list">
+                <li>SQL/SQLite</li>
+                <li>Python</li>
+                <li>Database Design</li>
+              </ul>
+            </div>
+          </div>
+        </article>
 
-        <div class="project-info">
+        <article class="timeline-item">
+          <div class="timeline-rail">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="project-card">
+            <img src="images/sar.jpg" alt="Interferogram over a wildfire site" loading="lazy">
+            <div class="project-info">
+              <span class="project-date">February 2025 – April 2025</span>
+              <h2>FireSAR Research Project</h2>
+              <p>Conducted applied research on wildfire detection using Synthetic Aperture Radar (SAR) and
+                interferometric techniques to evaluate InSAR's potential for predicting wildfire behavior.
+                Collected and processed Sentinel-1 datasets from ASF Vertex to generate before-, during-, and
+                after-fire interferograms across multiple Canadian wildfire sites. Used ESA SNAP for
+                interferogram creation, filtering, geocoding, and export, then overlaid the results in Google
+                Earth alongside Sentinel-2 optical imagery to characterize burn severity and potential
+                holdover fire indicators.</p>
+              <ul class="tag-list">
+                <li>Python</li>
+                <li>Synthetic Aperture Radar</li>
+              </ul>
+            </div>
+          </div>
+        </article>
 
-          <h2>Filter Design Lab: August 2025</h2>
+        <article class="timeline-item">
+          <div class="timeline-rail">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="project-card">
+            <img src="images/nostalgiaNest.jpg" alt="Screens from the Nostalgia Nest Android app" loading="lazy">
+            <div class="project-info">
+              <span class="project-date">September 2024 – December 2024</span>
+              <h2>Nostalgia Nest</h2>
+              <p>Designed and developed Nostalgia Nest, an Android application that uses reminiscence
+                therapy to improve the well-being of dementia patients by enabling memory recall through
+                shared photos, videos, audio, and stories. Implemented a multi-user, cloud-synced gallery
+                so caregivers, family, and friends could collaboratively upload and manage personalized
+                media collections in real time — with an accessible UX designed for users at varying stages
+                of dementia, secure data handling, and minimal interaction complexity.</p>
+              <ul class="tag-list">
+                <li>Java</li>
+                <li>Android Development</li>
+              </ul>
+            </div>
+          </div>
+        </article>
 
-          <p>In this interesting lab we designed and implemented a low-pass audio filter to meet 
+        <article class="timeline-item">
+          <div class="timeline-rail">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="project-card">
+            <img src="images/diceroller.jpg" alt="DE3-115 Cyclone FPGA board running the dice roller" loading="lazy">
+            <div class="project-info">
+              <span class="project-date">July 2024 – August 2024</span>
+              <h2>Dice Roller on DE3-115 Cyclone FPGA</h2>
+              <p>Designed and implemented a digital dice roller on the DE3-115 FPGA development board using
+                VHDL, simulating fair six-sided dice rolls through pseudo-random number generation.
+                Integrated hardware debouncing for physical pushbutton inputs, seven-segment display drivers
+                for real-time output, and modular design practices for scalability and readability.
+                Focused on synthesizable, resource-efficient architecture while maintaining accurate timing
+                on the Cyclone IVE EP4CE115F29C7 device, validated through iterative testing and waveform
+                simulation.</p>
+              <ul class="tag-list">
+                <li>VHDL</li>
+              </ul>
+            </div>
+          </div>
+        </article>
 
-            strict frequency response requirements, passing signals from 
+        <article class="timeline-item">
+          <div class="timeline-rail">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="project-card">
+            <img src="images/security.jpg" alt="Facial recognition security system interface" loading="lazy">
+            <div class="project-info">
+              <span class="project-date">January 2023 – February 2023</span>
+              <h2>Security System</h2>
+              <p>Developed a facial recognition security system in Python capable of distinguishing
+                recognized from unrecognized individuals. Integrated object detection and notification
+                features to alert the system owner of unknown activity while identifying known persons. The
+                system was later incorporated into a larger group project to simulate a complete security
+                solution.</p>
+              <ul class="tag-list">
+                <li>Python</li>
+              </ul>
+            </div>
+          </div>
+        </article>
 
-            300 Hz to 5 kHz while attenuating high-frequency noise by at 
+        <!-- ============================================================
+             TODO: ADD NEW PROJECT HERE
+             Copy the commented block below, paste it above this comment
+             (so newer work stays at the bottom of the timeline, or move
+             it wherever it belongs chronologically), then uncomment it
+             and replace the placeholders:
+               - [DATE RANGE]      → e.g. "May 2026 – June 2026"
+               - [PROJECT TITLE]   → project name
+               - images/[FILE].jpg → your project image, placed in /images
+               - [Image alt text]  → a short, descriptive alt string
+               - [Project description...] → 2–4 sentence summary
+               - [Skill / Tool]    → one <li> per skill or tool, add or
+                                     remove <li> items as needed
+             ============================================================
 
-            least 40 dB at 22 kHz. Selected and calculated component values 
+        <article class="timeline-item">
+          <div class="timeline-rail">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="project-card">
+            <img src="images/[FILE].jpg" alt="[Image alt text]" loading="lazy">
+            <div class="project-info">
+              <span class="project-date">[DATE RANGE]</span>
+              <h2>[PROJECT TITLE]</h2>
+              <p>[Project description goes here — 2 to 4 sentences on the problem, your approach, and the
+                outcome.]</p>
+              <ul class="tag-list">
+                <li>[Skill / Tool]</li>
+                <li>[Skill / Tool]</li>
+              </ul>
+            </div>
+          </div>
+        </article>
 
-            using Butterworth filter design equations, then simulated the transfer 
-
-            function in MATLAB to verify performance and account for component 
-
-            tolerances. Built and tested the circuit on a breadboard, validating 
-
-            passband flatness and stopband suppression against design specifications.</p>
-
-          <ul>
-
-            <li>MATLAB</li>
-
-            <li>Microsoft Excel</li>
-
-            <li>LTSpice</li>
-
-          </ul>
-
-        </div>
+        -->
 
       </div>
-
-
-
-      <div class="project-card">
-
-        <img src="images/cpu.jpg" alt="Project 1">
-
-        <div class="project-info">
-
-          <h2>RISC-V CPU Architecture Implementation: June 2025 – August 2025</h2> 
-
-          <p>Developed a cycle-accurate CPU simulator in C, implementing instruction 
-
-            pipelining and modeling all major CPU stages (fetch, decode, execute, 
-
-            memory, write-back). Designed and integrated a cache subsystem with 
-
-            configurable parameters, replacement policies (e.g., LRU, LFU), and 
-
-            performance tracking. Final project combined pipeline hazard detection, 
-
-            forwarding logic, and cache memory to simulate realistic processor performance 
-
-            and analyze execution efficiency.</p>
-
-          <ul>
-
-            <li>C Programming</li>
-
-            <li>RISC-V Computer Architecture Design</li>
-
-            <li>Assembly Programming Language</li>
-
-          </ul>
-
-        </div>
-
-      </div>      
-
-
-
-
-
-      <div class="project-card">
-
-        <img src="images/sql.jpg" alt="Project 5">
-
-        <div class="project-info">
-
-          <h2>Database Library Application: March 2025 - April 2025</h2>
-
-          <p>Developed a library database system using SQLite and Python, incorporating 
-
-            entities such as books, media, events, and personnel. Designed E/R diagrams, 
-
-            normalized schemas to BCNF to eliminate anomalies, and implemented SQL queries 
-
-            with constraints and triggers to ensure data integrity. Built a functional 
-
-            application that allows users to borrow, return, and donate items, register 
-
-            for events, and interact with library services in a realistic setting.</p>
-
-          <ul>
-
-            <li>SQL/SQLite</li>
-
-            <li>Pyhton programming</li>
-
-            <li>Database Management</li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-
-
-      <div class="project-card">
-
-        <img src="images/sar.jpg" alt="Project 4">
-
-        <div class="project-info">
-
-          <h2>FireSAR Research Project: February 2025 - April 2025</h2>
-
-          <p>Conducted applied research on wildfire detection using Synthetic Aperture 
-
-            Radar (SAR) and interferometric techniques to evaluate InSAR’s potential 
-
-            for predicting wildfire behavior. Collected and processed Sentinel-1 datasets 
-
-            from ASF Vertex to generate before-, during-, and after-fire interferograms 
-
-            over multiple Canadian wildfire sites. Integrated ESA SNAP for interferogram 
-
-            creation, filtering, geocoding, and export, followed by overlay and analysis 
-
-            in Google Earth alongside Sentinel-2 optical imagery. Characterized wildfire 
-
-            perimeters, burn severity, and potential holdover fire indicators by comparing 
-
-            phase and intensity image signatures against optical data to validate detection 
-
-            accuracy.</p>
-
-          <ul>
-
-            <li>Python programming</li>
-
-            <li>Synthetic Aperture Radar (SAR)</li>
-
-          </ul>
-
-        </div>
-
-      </div>    
-
-      
-
-
-
-      <div class="project-card">
-
-        <img src="images/nostalgiaNest.jpg" alt="Project 5">
-
-        <div class="project-info">
-
-          <h2>Nostalgia Nest: September 2024 – December 2024</h2>
-
-          <p>Designed and developed Nostalgia Nest, an Android application 
-
-            leveraging reminiscence therapy to improve the well-being of dementia 
-
-            patients by enabling memory recall through shared photos, videos, audio, 
-
-            and stories. Implemented a multi-user, cloud-synced gallery system allowing 
-
-            caregivers, family, and friends to collaboratively upload and manage 
-
-            personalized media collections in real time. Focused on an intuitive, 
-
-            accessible UX/UI optimized for users at varying stages of dementia, with 
-
-            secure data handling and minimal interaction complexity to ensure ease of use.
-
-             Integrated collaborative workflows, iterative development, and domain 
-
-             research into dementia care to align technical features with therapeutic 
-
-             goals.</p>
-
-          <ul>
-
-            <li>Java programming</li>
-
-            <li>Android App Development</li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-
-
-      <div class="project-card">
-
-        <img src="images/diceroller.jpg" alt="Project 5">
-
-        <div class="project-info">
-
-          <h2>Dice Roller on DE3-115 Cyclone FPGA board: July 2024 – August 2024</h2>
-
-          <p>Designed and implemented a digital dice roller on the DE3-115 FPGA development board 
-
-            using VHDL, simulating fair six-sided dice rolls through pseudo-random number generation. 
-
-            Integrated hardware debouncing for physical pushbutton inputs, seven-segment display drivers 
-
-            for real-time output, and modular design practices to ensure scalability and readability of code. 
-
-            Focused on synthesizable, resource-efficient architecture while maintaining accurate timing behavior 
-
-            on the Cyclone IVE EP4CE115F29C7 device. Employed iterative testing, waveform simulation, and hardware 
-
-            debugging to validate design correctness and ensure reliable system performance.</p>
-
-          <ul>
-
-            <li>VHDL programming</li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-
-
-      <div class="project-card">
-
-        <img src="images/security.jpg" alt="Project 5">
-
-        <div class="project-info">
-
-          <h2>Security System: Jauary 2023 - February 2023</h2>
-
-          <p>Developed a facial recognition security system in Python capable 
-
-            of distinguishing between recognized and unrecognized individuals. 
-
-            Integrated object detection and notification features to alert the system 
-
-            owner of unknown activity, while allowing identification of known persons. 
-
-            The system was later incorporated into a larger group project to simulate a 
-
-            complete security solution.</p>
-
-          <ul>
-
-            <li>Python programming</li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-
-
-      <!--
-
-      <div class="project-card">
-
-        <img src="project5.jpg" alt="Project 5">
-
-        <div class="project-info">
-
-          <h2>Project 5</h2>
-
-          <p>Short description of the project goes here.</p>
-
-          <ul>
-
-            <li>Skill learned 1</li>
-
-            <li>Skill learned 2</li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-      -->
-
-
-
-
-
-
-
     </section>
 
   </main>
 
-</body>
+  <script>
+    // Highlights the nav link for the section currently in view.
+    const sections = document.querySelectorAll('main section[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
 
+    const setActive = (id) => {
+      navLinks.forEach((link) => {
+        link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+      });
+    };
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        const visible = entries.filter((e) => e.isIntersecting);
+        if (visible.length) {
+          setActive(visible[0].target.id);
+        }
+      }, { rootMargin: '-40% 0px -50% 0px' });
+
+      sections.forEach((section) => observer.observe(section));
+    }
+  </script>
+
+</body>
 </html>
