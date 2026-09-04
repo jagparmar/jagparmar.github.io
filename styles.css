@@ -375,12 +375,16 @@ section h1 {
   transform: translateY(-2px);
 }
 
-.project-card img {
+.project-card img,
+.project-placeholder {
   width: 190px;
   height: 140px;
-  object-fit: cover;
   border-radius: 4px;
   flex-shrink: 0;
+}
+
+.project-card img {
+  object-fit: cover;
   filter: saturate(0.94);
   transition: transform 0.4s ease, filter 0.2s ease;
 }
@@ -388,6 +392,29 @@ section h1 {
 .timeline-item:hover .project-card img {
   transform: scale(1.03);
   filter: saturate(1.05);
+}
+
+.project-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--paper-deep);
+  border: 1px dashed var(--line);
+  color: var(--muted);
+  text-align: center;
+  padding: 12px;
+}
+
+.project-placeholder i {
+  font-size: 22px;
+  color: var(--steel);
+}
+
+.project-placeholder span {
+  font-size: 12px;
+  line-height: 1.3;
 }
 
 .project-info {
@@ -458,7 +485,8 @@ section h1 {
     flex-direction: column;
   }
 
-  .project-card img {
+  .project-card img,
+  .project-placeholder {
     width: 100%;
     height: 180px;
   }
