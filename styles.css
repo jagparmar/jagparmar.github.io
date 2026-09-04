@@ -285,7 +285,7 @@ section h1 {
 
 .spec-row {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 230px 1fr;
   gap: 24px;
   padding: 16px 0;
   border-bottom: 1px solid var(--line);
